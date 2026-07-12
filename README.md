@@ -29,32 +29,9 @@ The environment is built to reflect real-world enterprise practices used by syst
 
 # Infrastructure
 
-```
-                    Internet
-                        │
-                  ┌────────────┐
-                  │  pfSense   │
-                  └─────┬──────┘
-                        │
-        ┌───────────────┼────────────────┐
-        │               │                │
-     USERS          SERVERS            DMZ
-   10.10.10.0     10.10.20.0       10.10.30.0
-                        │
-                ┌───────────────┐
-                │     DC01      │
-                │ ActiveDirectory│
-                │ DNS / DHCP     │
-                └───────────────┘
-                        │
-                ┌───────────────┐
-                │     FS01      │
-                │ File Services │
-                └───────────────┘
 
-              MGMT Network
-             10.10.40.0/24
-```
+   <img width="1536" height="1024" alt="Designer (3)" src="https://github.com/user-attachments/assets/024bd0ba-2486-4bf1-8405-fa5ab5950eaf" />
+
 
 ---
 
